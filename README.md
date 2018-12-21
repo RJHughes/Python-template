@@ -1,17 +1,21 @@
 # Python-template
 A template repository for a Python project
 
-This project uses pipenv for managing dependencies. To install pipenv:
+This project uses a simple requirements.txt file for managing dependencies. To set up this project you will need pip. 
+So as not to clutter your base Python installation with packages, you'll likely want to create a virtualenv for this 
+project. 
 
-`pip install pipenv`
+[Here's how to do that in PyCharm](https://www.jetbrains.com/help/pycharm/creating-virtual-environment.html)
 
-Then to get the dependencies for this project, cd to the directory that you've
-cloned this repo into. (e.g. C:\\my_projects\\Python-template)
+[Here's how to do that using the command line](https://virtualenv.pypa.io/en/latest/userguide/)
 
-Then to get the development environment packages, run
+Once you have a virtual environment set up for this project you can get the dependecies from the requirements.txt file 
+included in this repository.
 
-`pipenv install --dev`
+Install the packages through PyCharm or by running
 
-You can activate this environment as a shell with
+`pip install -r /path/to/requirements.txt`
 
-`pipenv shell`
+In your virtual environment console
+
+
